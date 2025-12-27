@@ -18,12 +18,12 @@ import { usePathname } from "next/navigation";
 const menuItems = [
   { icon: Home, label: "Home", href: "/" },
   { icon: Package, label: "Product", href: "/product" },
-  { icon: ShoppingBag, label: "Order", href: "#" },
-  { icon: CreditCard, label: "Payment", href: "#" },
-  { icon: BarChart2, label: "Statistics", href: "#" },
-  { icon: Truck, label: "Shipping", href: "#" },
-  { icon: Users, label: "Manage User", href: "#" },
-  { icon: Settings, label: "Setting", href: "#" },
+  { icon: ShoppingBag, label: "Order", href: "/order" },
+  { icon: CreditCard, label: "Payment", href: "/payment" },
+  { icon: BarChart2, label: "Statistics", href: "/statistics" },
+  { icon: Truck, label: "Shipping", href: "/shipping" },
+  { icon: Users, label: "Manage User", href: "/manage-user" },
+  { icon: Settings, label: "Setting", href: "/setting" },
 ];
 
 export function Sidebar() {
