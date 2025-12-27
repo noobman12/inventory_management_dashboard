@@ -9,7 +9,7 @@ export async function login(formData: FormData) {
   const password = formData.get('password');
 
   // For demo purposes, we accept any login if fields are not empty
-  if (username && password) {
+  if (username === 'admin' && password === 'password') {
     
     // Set the cookie
     const cookieStore = await cookies();
